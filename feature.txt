@@ -1,0 +1,13 @@
+特徵名稱	說明	欄位名稱
+距離	水平線段長度（m）	distance
+海拔變化	正高與負高的變化率	elevation_change
+坡度標準差	坡度波動程度（Standard Deviation）	slope_std_dev
+坡度變異數	坡度變動整體幅度（Variance）	slope_variance
+最大坡度	擷取最大上下坡的瞬間坡度	max_slope
+坡度頻率分布	坡度分區間（±5°, ±10°）的統計頻率	slope_freq_dist
+最大坡度高低時間差	高低點之間的時間差	max_slope_time_diff
+切點間時間差	兩切點間移動所花時間	breakpoint_time_diff
+海拔範圍	最低與最高點之差	elevation_range
+是否超過2438公尺海拔	是否超過 2438 公尺（高山症風險）	high_elevation 
+最大坡度點	最大坡度之座標或相關資訊	max_slope_point
+通訊點數量	該段內通訊點數量	comm_point_count
