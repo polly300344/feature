@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_40beb84c143e2f72423aee596dab289d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_40beb84c143e2f72423aee596dab289d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_40beb84c143e2f72423aee596dab289d = L.map(
+                "map_40beb84c143e2f72423aee596dab289d",
+                {
+                    center: [24.397, 121.3077],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3d5893f04e6bd21475e22d0d801f678e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3d5893f04e6bd21475e22d0d801f678e.addTo(map_40beb84c143e2f72423aee596dab289d);
+        
+    
+            var feature_group_2a3ab070fbbe5002259f0bb1f0f64bab = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_32d117f5c876d8e83a8c8308b9e8a6f5 = L.polyline(
+                [[24.397, 121.3077], [24.3989, 121.3083], [24.408, 121.3045], [24.40996, 121.30123], [24.416849, 121.29899], [24.423034, 121.29491], [24.426696, 121.29296], [24.431111, 121.28815], [24.4282, 121.2668]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2a3ab070fbbe5002259f0bb1f0f64bab);
+        
+    
+            poly_line_32d117f5c876d8e83a8c8308b9e8a6f5.bindTooltip(
+                `<div>
+                     桃山瀑布步道
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7f5045b784da25d7fff5c64f05c33002 = L.marker(
+                [24.397, 121.3077],
+                {
+}
+            ).addTo(feature_group_2a3ab070fbbe5002259f0bb1f0f64bab);
+        
+    
+            var icon_1a419a8612e874c85fd1decd7813c616 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8824729ca13defa3f97754576c37a44e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03831268058344febddcfe6369ed1434 = $(`<div id="html_03831268058344febddcfe6369ed1434" style="width: 100.0%; height: 100.0%;">桃山瀑布步道 起點</div>`)[0];
+                popup_8824729ca13defa3f97754576c37a44e.setContent(html_03831268058344febddcfe6369ed1434);
+            
+        
+
+        marker_7f5045b784da25d7fff5c64f05c33002.bindPopup(popup_8824729ca13defa3f97754576c37a44e)
+        ;
+
+        
+    
+    
+                marker_7f5045b784da25d7fff5c64f05c33002.setIcon(icon_1a419a8612e874c85fd1decd7813c616);
+            
+    
+            var marker_e0db6d8d0ed034378fdd5a0fe961d29a = L.marker(
+                [24.4282, 121.2668],
+                {
+}
+            ).addTo(feature_group_2a3ab070fbbe5002259f0bb1f0f64bab);
+        
+    
+            var icon_d12817e7ad778732c56571c5cb330586 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ffacd037d2ef19b8d9eb0920ff036a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ec4ac53d5fb6bc210847806b0716f79 = $(`<div id="html_6ec4ac53d5fb6bc210847806b0716f79" style="width: 100.0%; height: 100.0%;">桃山瀑布步道 終點</div>`)[0];
+                popup_6ffacd037d2ef19b8d9eb0920ff036a0.setContent(html_6ec4ac53d5fb6bc210847806b0716f79);
+            
+        
+
+        marker_e0db6d8d0ed034378fdd5a0fe961d29a.bindPopup(popup_6ffacd037d2ef19b8d9eb0920ff036a0)
+        ;
+
+        
+    
+    
+                marker_e0db6d8d0ed034378fdd5a0fe961d29a.setIcon(icon_d12817e7ad778732c56571c5cb330586);
+            
+    
+            feature_group_2a3ab070fbbe5002259f0bb1f0f64bab.addTo(map_40beb84c143e2f72423aee596dab289d);
+        
+    
+            var feature_group_439b359830c34d8bea1c96e117c1ff97 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_7a434ac2a26eba18f55fabe6f3bc0dcc = L.polyline(
+                [[24.397, 121.3077], [24.40522, 121.30758], [24.4163, 121.3072], [24.43251, 121.30463]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_439b359830c34d8bea1c96e117c1ff97);
+        
+    
+            poly_line_7a434ac2a26eba18f55fabe6f3bc0dcc.bindTooltip(
+                `<div>
+                     桃山瀑布步道
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_73a3852748e3b91f7bdd292d6e27103a = L.marker(
+                [24.397, 121.3077],
+                {
+}
+            ).addTo(feature_group_439b359830c34d8bea1c96e117c1ff97);
+        
+    
+            var icon_3a1ad170d1cfba8fe3e9164a8b55b284 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_189e4c913489e30c4158d4ac88e95898 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6d2211ca251f0b2c5992ab23a8bb5e1 = $(`<div id="html_c6d2211ca251f0b2c5992ab23a8bb5e1" style="width: 100.0%; height: 100.0%;">桃山瀑布步道 起點</div>`)[0];
+                popup_189e4c913489e30c4158d4ac88e95898.setContent(html_c6d2211ca251f0b2c5992ab23a8bb5e1);
+            
+        
+
+        marker_73a3852748e3b91f7bdd292d6e27103a.bindPopup(popup_189e4c913489e30c4158d4ac88e95898)
+        ;
+
+        
+    
+    
+                marker_73a3852748e3b91f7bdd292d6e27103a.setIcon(icon_3a1ad170d1cfba8fe3e9164a8b55b284);
+            
+    
+            var marker_16505a4f01159fec9af03aeb61847231 = L.marker(
+                [24.43251, 121.30463],
+                {
+}
+            ).addTo(feature_group_439b359830c34d8bea1c96e117c1ff97);
+        
+    
+            var icon_031ea17aa0d5f8737f19606619ae5568 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_889c69aa48aaecb7067cf92686707c05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd332548d49e43d9ebd8588b47828873 = $(`<div id="html_bd332548d49e43d9ebd8588b47828873" style="width: 100.0%; height: 100.0%;">桃山瀑布步道 終點</div>`)[0];
+                popup_889c69aa48aaecb7067cf92686707c05.setContent(html_bd332548d49e43d9ebd8588b47828873);
+            
+        
+
+        marker_16505a4f01159fec9af03aeb61847231.bindPopup(popup_889c69aa48aaecb7067cf92686707c05)
+        ;
+
+        
+    
+    
+                marker_16505a4f01159fec9af03aeb61847231.setIcon(icon_031ea17aa0d5f8737f19606619ae5568);
+            
+    
+            feature_group_439b359830c34d8bea1c96e117c1ff97.addTo(map_40beb84c143e2f72423aee596dab289d);
+        
+    
+            var feature_group_622191e88d11ec361b8c3955d23e9caf = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_71f412e009b1b94dbe88d120d5e28765 = L.polyline(
+                [[24.397, 121.3077], [24.3989, 121.3083], [24.405, 121.307], [24.40522, 121.30758], [24.41011, 121.31125], [24.41304, 121.30947], [24.4163, 121.3072], [24.4264, 121.30377], [24.42911, 121.30409], [24.43251, 121.30463], [24.45003, 121.32139]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_622191e88d11ec361b8c3955d23e9caf);
+        
+    
+            poly_line_71f412e009b1b94dbe88d120d5e28765.bindTooltip(
+                `<div>
+                     桃山瀑布步道
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f26015c72286fb09c96e03254b412c7b = L.marker(
+                [24.397, 121.3077],
+                {
+}
+            ).addTo(feature_group_622191e88d11ec361b8c3955d23e9caf);
+        
+    
+            var icon_91c28f5c5359c2809e5a6408bbdcbcc0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12c55178b8dc8cdc950b6f069dc56c5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31b60539bfbce7fb3a987d14b8ada4ee = $(`<div id="html_31b60539bfbce7fb3a987d14b8ada4ee" style="width: 100.0%; height: 100.0%;">桃山瀑布步道 起點</div>`)[0];
+                popup_12c55178b8dc8cdc950b6f069dc56c5b.setContent(html_31b60539bfbce7fb3a987d14b8ada4ee);
+            
+        
+
+        marker_f26015c72286fb09c96e03254b412c7b.bindPopup(popup_12c55178b8dc8cdc950b6f069dc56c5b)
+        ;
+
+        
+    
+    
+                marker_f26015c72286fb09c96e03254b412c7b.setIcon(icon_91c28f5c5359c2809e5a6408bbdcbcc0);
+            
+    
+            var marker_cd0311b5eb606cde2d595b0ff310adf9 = L.marker(
+                [24.45003, 121.32139],
+                {
+}
+            ).addTo(feature_group_622191e88d11ec361b8c3955d23e9caf);
+        
+    
+            var icon_e193dd095d0c4a0a4e69aba27f7dddc5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c9ba3fbe3ba7c407d92033ef00b83f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4f70237884f0bc422c180cc75998569 = $(`<div id="html_b4f70237884f0bc422c180cc75998569" style="width: 100.0%; height: 100.0%;">桃山瀑布步道 終點</div>`)[0];
+                popup_6c9ba3fbe3ba7c407d92033ef00b83f4.setContent(html_b4f70237884f0bc422c180cc75998569);
+            
+        
+
+        marker_cd0311b5eb606cde2d595b0ff310adf9.bindPopup(popup_6c9ba3fbe3ba7c407d92033ef00b83f4)
+        ;
+
+        
+    
+    
+                marker_cd0311b5eb606cde2d595b0ff310adf9.setIcon(icon_e193dd095d0c4a0a4e69aba27f7dddc5);
+            
+    
+            feature_group_622191e88d11ec361b8c3955d23e9caf.addTo(map_40beb84c143e2f72423aee596dab289d);
+        
+    
+            var feature_group_33ee73a406e7fa65c97b7fbd5b945590 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_e4ec624c2f403a6d52883bca0249fd4c = L.polyline(
+                [[24.397, 121.3077], [24.3989, 121.3083], [24.405, 121.307], [24.403, 121.306], [24.406, 121.304], [24.414028, 121.302781], [24.408, 121.3045], [24.40522, 121.30758]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_33ee73a406e7fa65c97b7fbd5b945590);
+        
+    
+            poly_line_e4ec624c2f403a6d52883bca0249fd4c.bindTooltip(
+                `<div>
+                     桃山瀑布步道
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ca342c4c6f8f2518de019e8005ed6ceb = L.marker(
+                [24.397, 121.3077],
+                {
+}
+            ).addTo(feature_group_33ee73a406e7fa65c97b7fbd5b945590);
+        
+    
+            var icon_7083b4cdb85186c29c5a6e42f83b0c38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a358334476c76895f0468abbfe20ca0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd32a71da233b8f25a7945f2305d3eb3 = $(`<div id="html_bd32a71da233b8f25a7945f2305d3eb3" style="width: 100.0%; height: 100.0%;">桃山瀑布步道 起點</div>`)[0];
+                popup_1a358334476c76895f0468abbfe20ca0.setContent(html_bd32a71da233b8f25a7945f2305d3eb3);
+            
+        
+
+        marker_ca342c4c6f8f2518de019e8005ed6ceb.bindPopup(popup_1a358334476c76895f0468abbfe20ca0)
+        ;
+
+        
+    
+    
+                marker_ca342c4c6f8f2518de019e8005ed6ceb.setIcon(icon_7083b4cdb85186c29c5a6e42f83b0c38);
+            
+    
+            var marker_36d321f6a3efc5066e76875d892ee13e = L.marker(
+                [24.40522, 121.30758],
+                {
+}
+            ).addTo(feature_group_33ee73a406e7fa65c97b7fbd5b945590);
+        
+    
+            var icon_18f05145cf17fe2577f60723701e9a7a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d58da2def63b3ad7bae429f32d7b1253 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6d5cb3851349f9b69707bf05a81b9e5 = $(`<div id="html_d6d5cb3851349f9b69707bf05a81b9e5" style="width: 100.0%; height: 100.0%;">桃山瀑布步道 終點</div>`)[0];
+                popup_d58da2def63b3ad7bae429f32d7b1253.setContent(html_d6d5cb3851349f9b69707bf05a81b9e5);
+            
+        
+
+        marker_36d321f6a3efc5066e76875d892ee13e.bindPopup(popup_d58da2def63b3ad7bae429f32d7b1253)
+        ;
+
+        
+    
+    
+                marker_36d321f6a3efc5066e76875d892ee13e.setIcon(icon_18f05145cf17fe2577f60723701e9a7a);
+            
+    
+            feature_group_33ee73a406e7fa65c97b7fbd5b945590.addTo(map_40beb84c143e2f72423aee596dab289d);
+        
+    
+            var layer_control_26fefeeb1808f052a36181092bccb020_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3d5893f04e6bd21475e22d0d801f678e,
+                },
+                overlays :  {
+                    "\u6843\u5c71\u7011\u5e03\u6b65\u9053" : feature_group_33ee73a406e7fa65c97b7fbd5b945590,
+                },
+            };
+            let layer_control_26fefeeb1808f052a36181092bccb020 = L.control.layers(
+                layer_control_26fefeeb1808f052a36181092bccb020_layers.base_layers,
+                layer_control_26fefeeb1808f052a36181092bccb020_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_40beb84c143e2f72423aee596dab289d);
+
+        
+</script>
+</html>
