@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <trkseg>
+      <trkpt lat="24.397" lon="121.3077">
+        <ele>1400.0</ele>
+      </trkpt>
+      <trkpt lat="24.39709100975444" lon="121.30766312098027">
+        <ele>1895.719364390448</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>1.228614</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>88.024860</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.397297395811812" lon="121.30708484390593">
+        <ele>1896.366410966585</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.000000</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>290.634101</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.397091648504173" lon="121.30747759325874">
+        <ele>1897.3668262588997</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.000000</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>290.634265</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.397340726177074" lon="121.30727776376888">
+        <ele>1896.1462655761072</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.000000</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>290.634188</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.39715528745526" lon="121.30735993806107">
+        <ele>1897.7537046107818</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.000000</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>121.173877</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.39728984396267" lon="121.30712533131347">
+        <ele>1895.829027850057</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>1.384831</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>292.459215</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.397111734462488" lon="121.30732547138777">
+        <ele>1896.3936141219192</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.000000</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>189.893722</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.39719821873846" lon="121.30733058898934">
+        <ele>1896.2931963558362</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.000000</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>175.246346</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.397102460969634" lon="121.30716161500388">
+        <ele>1897.4575641179124</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.000000</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>95.610608</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.39701637465029" lon="121.3072436134024">
+        <ele>1898.3406506012068</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.000000</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>95.610660</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.39716671155616" lon="121.30723908333601">
+        <ele>1900.2456903949599</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>1.702986</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>52.952985</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.396866249474908" lon="121.30735270288751">
+        <ele>1897.7028555437098</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.973225</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>122.042647</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.39704175822705" lon="121.3079329295931">
+        <ele>1891.689074724581</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>1.069845</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>57.091106</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.397378034509746" lon="121.3079384834654">
+        <ele>1888.2065904456763</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>1.020552</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>332.202626</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.397715469726364" lon="121.30776819274506">
+        <ele>1890.9460355202707</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.920663</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>16.659702</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.398037948490817" lon="121.30790246081104">
+        <ele>1896.1096706564194</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.671108</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>22.104789</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.3989" lon="121.3083">
+        <ele>1450.0</ele>
+      </trkpt>
+      <trkpt lat="24.398906049118246" lon="121.3081806349895">
+        <ele>1906.8654427456202</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.000000</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>337.965718</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.399155066960557" lon="121.30833635019597">
+        <ele>1911.0398418469829</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.541410</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>333.188610</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.39973863629532" lon="121.30774329658642">
+        <ele>1921.7896599638548</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.887296</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>323.844239</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.40057718214382" lon="121.3073717248651">
+        <ele>1926.2302633905974</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.705156</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>307.204812</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.401407959618602" lon="121.3069653572575">
+        <ele>1944.1896796051171</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>1.043702</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>60.927628</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.40195822325904" lon="121.30684637132804">
+        <ele>1943.991270141005</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.796090</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>339.478542</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.40233443945635" lon="121.30699700326035">
+        <ele>1956.2880743732776</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.995148</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>30.258329</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.403235186176037" lon="121.30715132901268">
+        <ele>1964.5321884301845</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.532474</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>336.490255</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.404138234600495" lon="121.30729317614299">
+        <ele>1972.1680193722868</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.725380</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>20.306247</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.405041518748106" lon="121.30755043508618">
+        <ele>1982.7639409200865</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.779107</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>0.291280</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.405128644509478" lon="121.30751767620936">
+        <ele>1987.942260751764</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.449901</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>332.872522</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.40502978233482" lon="121.30765190039789">
+        <ele>1983.2981052442854</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.000000</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>250.118177</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.405197415735636" lon="121.30763446796978">
+        <ele>1981.147310466318</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.000000</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>-1.000000</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.405251709117138" lon="121.30747161604621">
+        <ele>1983.8174667183787</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.000000</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>291.410899</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.404990528620385" lon="121.30720351694879">
+        <ele>1993.0822428644055</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.724286</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>223.595298</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.40427637379819" lon="121.30698880623513">
+        <ele>1991.350600425977</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>1.034263</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>179.237553</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.404095375525674" lon="121.30701891537973">
+        <ele>1994.133621513659</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.639781</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>181.564019</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.403455566675362" lon="121.30656673010076">
+        <ele>1997.2339752125192</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.566397</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>244.787310</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.402880655854016" lon="121.30617334053456">
+        <ele>1998.0415088067766</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>1.319864</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>279.451738</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.40292924065413" lon="121.30607967253111">
+        <ele>1996.861534269589</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.875926</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>311.159773</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.403374045442725" lon="121.3062059637503">
+        <ele>2008.6906316843379</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>1.078342</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>356.685787</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.40392512620781" lon="121.30569289103865">
+        <ele>2026.4583152599319</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>1.303883</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>304.855655</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.404341706119457" lon="121.3048057990762">
+        <ele>2039.2196219323278</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.885143</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>329.251955</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.404423449079605" lon="121.30454513695017">
+        <ele>2044.6244841014186</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>1.212531</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>293.479334</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.404873588729135" lon="121.30400170721803">
+        <ele>2058.185761334895</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>1.319323</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>296.374875</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.405450415661818" lon="121.3032231728924">
+        <ele>2062.568742390921</ele>
+        <src>Hikingbook</src>
+        <extensions>
+          <https://hikingbook.net/xmlschemas/1/5:speed>0.917117</https://hikingbook.net/xmlschemas/1/5:speed>
+          <https://hikingbook.net/xmlschemas/1/5:course>335.557550</https://hikingbook.net/xmlschemas/1/5:course>
+        </extensions>
+      </trkpt>
+      <trkpt lat="24.4282" lon="121.2668">
+        <ele>3524.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

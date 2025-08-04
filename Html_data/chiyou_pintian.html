@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5c7feef078bd0a36140e3e777cad375b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5c7feef078bd0a36140e3e777cad375b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5c7feef078bd0a36140e3e777cad375b = L.map(
+                "map_5c7feef078bd0a36140e3e777cad375b",
+                {
+                    center: [24.397295771832898, 121.30733951690434],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7650754927919cda699ea019b46f4a0a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7650754927919cda699ea019b46f4a0a.addTo(map_5c7feef078bd0a36140e3e777cad375b);
+        
+    
+            var feature_group_7b16d600db9c207231d765f46b41c69d = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_593b30b6fef286e5077fac02dc0d0535 = L.polyline(
+                [[24.397295771832898, 121.30733951690434], [24.397242535285347, 121.30740138041524], [24.39723785985579, 121.30691002696415], [24.397268852670553, 121.30748260970084], [24.39726528490749, 121.30727613330976], [24.39696781404116, 121.30754325809018], [24.39709100975444, 121.30766312098027], [24.397297395811812, 121.30708484390593], [24.397091648504173, 121.30747759325874], [24.397340726177074, 121.30727776376888], [24.39715528745526, 121.30735993806107], [24.39728984396267, 121.30712533131347], [24.397111734462488, 121.30732547138777], [24.39719821873846, 121.30733058898934], [24.397102460969634, 121.30716161500388], [24.39701637465029, 121.3072436134024], [24.39716671155616, 121.30723908333601], [24.396866249474908, 121.30735270288751], [24.39704175822705, 121.3079329295931], [24.397378034509746, 121.3079384834654], [24.397715469726364, 121.30776819274506], [24.398037948490817, 121.30790246081104], [24.398906049118246, 121.3081806349895], [24.399155066960557, 121.30833635019597], [24.39973863629532, 121.30774329658642], [24.40057718214382, 121.3073717248651], [24.401407959618602, 121.3069653572575], [24.40195822325904, 121.30684637132804], [24.40233443945635, 121.30699700326035], [24.403235186176037, 121.30715132901268], [24.404138234600495, 121.30729317614299], [24.405041518748106, 121.30755043508618], [24.405128644509478, 121.30751767620936], [24.40502978233482, 121.30765190039789], [24.405197415735636, 121.30763446796978], [24.405251709117138, 121.30747161604621], [24.404990528620385, 121.30720351694879], [24.40427637379819, 121.30698880623513], [24.404095375525674, 121.30701891537973], [24.403455566675362, 121.30656673010076], [24.402880655854016, 121.30617334053456], [24.40292924065413, 121.30607967253111], [24.403374045442725, 121.3062059637503], [24.40392512620781, 121.30569289103865], [24.404341706119457, 121.3048057990762], [24.404423449079605, 121.30454513695017], [24.404873588729135, 121.30400170721803], [24.405450415661818, 121.3032231728924], [24.4057420564854, 121.30303017147884], [24.405757313800322, 121.30269750906878], [24.40592711674596, 121.30270419305965], [24.406049203349816, 121.30295353469295], [24.40575115587562, 121.3032554395996], [24.40548832135287, 121.30421954282046], [24.405015506527874, 121.30508186068123], [24.404926873588007, 121.30543976288979], [24.40504967762953, 121.30576023125647], [24.405191718992782, 121.30515101892182], [24.405744937323238, 121.30448894358223], [24.406179622575614, 121.30360799658817], [24.406346328578486, 121.30363007214412], [24.40616292996562, 121.3039806349781], [24.406127299836196, 121.3045954910871], [24.405905908952672, 121.30500187218472], [24.405948413157144, 121.30550797404652], [24.40603178009488, 121.3051420455825], [24.406814363967573, 121.30393840753536], [24.407131027792417, 121.30380270780792], [24.406802184534953, 121.30425246902055], [24.40676696891767, 121.30493278066052], [24.40681920317984, 121.3054645982735], [24.406958565589516, 121.3055665377322], [24.40699270110952, 121.30495785445626], [24.407489697307184, 121.30447624172965], [24.407590332557437, 121.30468872703527], [24.40731987350644, 121.30499553040542], [24.407464040237212, 121.30507227825186], [24.40767865473462, 121.304937659027], [24.407863718860813, 121.30487844477423], [24.407991428752617, 121.30455956757389]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_7b16d600db9c207231d765f46b41c69d);
+        
+    
+            feature_group_7b16d600db9c207231d765f46b41c69d.addTo(map_5c7feef078bd0a36140e3e777cad375b);
+        
+    
+            var feature_group_459917b375fe46c2e4a34cc9425c9184 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_09842e6e411c8d696accbff2b9caaa5c = L.polyline(
+                [[24.397, 121.3077], [24.39709100975444, 121.30766312098027], [24.397297395811812, 121.30708484390593], [24.397091648504173, 121.30747759325874], [24.397340726177074, 121.30727776376888], [24.39715528745526, 121.30735993806107], [24.39728984396267, 121.30712533131347], [24.397111734462488, 121.30732547138777], [24.39719821873846, 121.30733058898934], [24.397102460969634, 121.30716161500388], [24.39701637465029, 121.3072436134024], [24.39716671155616, 121.30723908333601], [24.396866249474908, 121.30735270288751], [24.39704175822705, 121.3079329295931], [24.397378034509746, 121.3079384834654], [24.397715469726364, 121.30776819274506], [24.398037948490817, 121.30790246081104], [24.3989, 121.3083], [24.398906049118246, 121.3081806349895], [24.399155066960557, 121.30833635019597], [24.39973863629532, 121.30774329658642], [24.40057718214382, 121.3073717248651], [24.401407959618602, 121.3069653572575], [24.40195822325904, 121.30684637132804], [24.40233443945635, 121.30699700326035], [24.403235186176037, 121.30715132901268], [24.404138234600495, 121.30729317614299], [24.405041518748106, 121.30755043508618], [24.405128644509478, 121.30751767620936], [24.40502978233482, 121.30765190039789], [24.405197415735636, 121.30763446796978], [24.405251709117138, 121.30747161604621], [24.404990528620385, 121.30720351694879], [24.40427637379819, 121.30698880623513], [24.404095375525674, 121.30701891537973], [24.403455566675362, 121.30656673010076], [24.402880655854016, 121.30617334053456], [24.40292924065413, 121.30607967253111], [24.403374045442725, 121.3062059637503], [24.40392512620781, 121.30569289103865], [24.404341706119457, 121.3048057990762], [24.404423449079605, 121.30454513695017], [24.404873588729135, 121.30400170721803], [24.405450415661818, 121.3032231728924], [24.4282, 121.2668]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_459917b375fe46c2e4a34cc9425c9184);
+        
+    
+            feature_group_459917b375fe46c2e4a34cc9425c9184.addTo(map_5c7feef078bd0a36140e3e777cad375b);
+        
+    
+            var feature_group_41627ce7fee4bbd0aa250516b10f1611 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_cluster_c1995be94f2055ebf242be4fbde0cf5f = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_0bfeb74be9aabfeafc74655ee801ba9b = L.marker(
+                [24.397, 121.3077],
+                {
+}
+            ).addTo(marker_cluster_c1995be94f2055ebf242be4fbde0cf5f);
+        
+    
+            var icon_06063d66965668b00aa75b572ba53fc5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5e5cb6c94c8ae861db612d571854cdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c131afe0c123b41d7d43a401b2a724b = $(`<div id="html_8c131afe0c123b41d7d43a401b2a724b" style="width: 100.0%; height: 100.0%;">桃山瀑布步道 路標指示 0 k 起點<br>海拔：約1400.0 m</div>`)[0];
+                popup_c5e5cb6c94c8ae861db612d571854cdb.setContent(html_8c131afe0c123b41d7d43a401b2a724b);
+            
+        
+
+        marker_0bfeb74be9aabfeafc74655ee801ba9b.bindPopup(popup_c5e5cb6c94c8ae861db612d571854cdb)
+        ;
+
+        
+    
+    
+                marker_0bfeb74be9aabfeafc74655ee801ba9b.setIcon(icon_06063d66965668b00aa75b572ba53fc5);
+            
+    
+            var marker_ba025790edecd34764f4973512a54a57 = L.marker(
+                [24.3989, 121.3083],
+                {
+}
+            ).addTo(marker_cluster_c1995be94f2055ebf242be4fbde0cf5f);
+        
+    
+            var icon_c0b6b824024ae5a488680c3b99fbf21a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9582614d4f7d4923230a0c89f87e07b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_491c15c114d4c817e509cf556d43b216 = $(`<div id="html_491c15c114d4c817e509cf556d43b216" style="width: 100.0%; height: 100.0%;">桃山瀑布步道 路標指示 0.5 k<br>海拔：約1450.0 m</div>`)[0];
+                popup_9582614d4f7d4923230a0c89f87e07b1.setContent(html_491c15c114d4c817e509cf556d43b216);
+            
+        
+
+        marker_ba025790edecd34764f4973512a54a57.bindPopup(popup_9582614d4f7d4923230a0c89f87e07b1)
+        ;
+
+        
+    
+    
+                marker_ba025790edecd34764f4973512a54a57.setIcon(icon_c0b6b824024ae5a488680c3b99fbf21a);
+            
+    
+            var marker_8f2083cb2689b3cf412dc362c3bfc6c2 = L.marker(
+                [24.408, 121.3045],
+                {
+}
+            ).addTo(marker_cluster_c1995be94f2055ebf242be4fbde0cf5f);
+        
+    
+            var icon_ebe56fcc0286d1cd8f6fc3162caedbd1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c6b8c00cd2735db4c6c56e383d1eb68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3779e29838670114b5ab7651bd8fb334 = $(`<div id="html_3779e29838670114b5ab7651bd8fb334" style="width: 100.0%; height: 100.0%;">池有登山步道 池有品田 0 k<br>海拔：約2200.0 m</div>`)[0];
+                popup_6c6b8c00cd2735db4c6c56e383d1eb68.setContent(html_3779e29838670114b5ab7651bd8fb334);
+            
+        
+
+        marker_8f2083cb2689b3cf412dc362c3bfc6c2.bindPopup(popup_6c6b8c00cd2735db4c6c56e383d1eb68)
+        ;
+
+        
+    
+    
+                marker_8f2083cb2689b3cf412dc362c3bfc6c2.setIcon(icon_ebe56fcc0286d1cd8f6fc3162caedbd1);
+            
+    
+            var marker_7806af9389a38efda9718330654df993 = L.marker(
+                [24.416849, 121.29899],
+                {
+}
+            ).addTo(marker_cluster_c1995be94f2055ebf242be4fbde0cf5f);
+        
+    
+            var icon_6078e35dd49ec1e52fb31ff52deca0c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c529e0e6cfa87b833039b480d442108d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cd2fafffc41c8d0d4fa8094fd7b5128 = $(`<div id="html_2cd2fafffc41c8d0d4fa8094fd7b5128" style="width: 100.0%; height: 100.0%;">池有登山步道 池有品田 1.5 k<br>海拔：約2600.0 m</div>`)[0];
+                popup_c529e0e6cfa87b833039b480d442108d.setContent(html_2cd2fafffc41c8d0d4fa8094fd7b5128);
+            
+        
+
+        marker_7806af9389a38efda9718330654df993.bindPopup(popup_c529e0e6cfa87b833039b480d442108d)
+        ;
+
+        
+    
+    
+                marker_7806af9389a38efda9718330654df993.setIcon(icon_6078e35dd49ec1e52fb31ff52deca0c7);
+            
+    
+            var marker_dfe4f663ed1a12685498c2047325b0b1 = L.marker(
+                [24.426696, 121.29296],
+                {
+}
+            ).addTo(marker_cluster_c1995be94f2055ebf242be4fbde0cf5f);
+        
+    
+            var icon_d61f83f633ee7b355e5d8170e14f0f45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02ec40e962b3bd27ca279ac918217d66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e31c69c1f2b2f1701e0f396c968cc514 = $(`<div id="html_e31c69c1f2b2f1701e0f396c968cc514" style="width: 100.0%; height: 100.0%;">池有登山步道 池有品田 3 k<br>海拔：約3000.0 m</div>`)[0];
+                popup_02ec40e962b3bd27ca279ac918217d66.setContent(html_e31c69c1f2b2f1701e0f396c968cc514);
+            
+        
+
+        marker_dfe4f663ed1a12685498c2047325b0b1.bindPopup(popup_02ec40e962b3bd27ca279ac918217d66)
+        ;
+
+        
+    
+    
+                marker_dfe4f663ed1a12685498c2047325b0b1.setIcon(icon_d61f83f633ee7b355e5d8170e14f0f45);
+            
+    
+            var marker_a509e588f84a206dbf259fce86992a0b = L.marker(
+                [24.431111, 121.28815],
+                {
+}
+            ).addTo(marker_cluster_c1995be94f2055ebf242be4fbde0cf5f);
+        
+    
+            var icon_f3c879a507d303b880f3ab57ce8471db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6c4b4603baad3e1fbbf076be8382816 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_328de1f9c1b2b799dc523344d5ecd954 = $(`<div id="html_328de1f9c1b2b799dc523344d5ecd954" style="width: 100.0%; height: 100.0%;">池有山 山頂<br>海拔：約3303.0 m</div>`)[0];
+                popup_e6c4b4603baad3e1fbbf076be8382816.setContent(html_328de1f9c1b2b799dc523344d5ecd954);
+            
+        
+
+        marker_a509e588f84a206dbf259fce86992a0b.bindPopup(popup_e6c4b4603baad3e1fbbf076be8382816)
+        ;
+
+        
+    
+    
+                marker_a509e588f84a206dbf259fce86992a0b.setIcon(icon_f3c879a507d303b880f3ab57ce8471db);
+            
+    
+            var marker_d35c021e4449929dbed76dd191433946 = L.marker(
+                [24.4282, 121.2668],
+                {
+}
+            ).addTo(marker_cluster_c1995be94f2055ebf242be4fbde0cf5f);
+        
+    
+            var icon_4e7fec3ff7720edbe3d43258245b9e64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b8031595a5e42a675ed86c075dd76ed4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ebc938fe733b20589bc9b65bf19a40d = $(`<div id="html_3ebc938fe733b20589bc9b65bf19a40d" style="width: 100.0%; height: 100.0%;">品田山 山頂<br>海拔：約3524.0 m</div>`)[0];
+                popup_b8031595a5e42a675ed86c075dd76ed4.setContent(html_3ebc938fe733b20589bc9b65bf19a40d);
+            
+        
+
+        marker_d35c021e4449929dbed76dd191433946.bindPopup(popup_b8031595a5e42a675ed86c075dd76ed4)
+        ;
+
+        
+    
+    
+                marker_d35c021e4449929dbed76dd191433946.setIcon(icon_4e7fec3ff7720edbe3d43258245b9e64);
+            
+    
+            marker_cluster_c1995be94f2055ebf242be4fbde0cf5f.addTo(feature_group_41627ce7fee4bbd0aa250516b10f1611);
+        
+    
+            feature_group_41627ce7fee4bbd0aa250516b10f1611.addTo(map_5c7feef078bd0a36140e3e777cad375b);
+        
+    
+            var layer_control_94f54aac0d9bb14ffd9729357ef5a0c6_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_7650754927919cda699ea019b46f4a0a,
+                },
+                overlays :  {
+                    "\u539f\u59cb\u8def\u7dda" : feature_group_7b16d600db9c207231d765f46b41c69d,
+                    "\u5207\u5272\u5f8c\u8def\u7dda" : feature_group_459917b375fe46c2e4a34cc9425c9184,
+                    "\u901a\u8a0a\u9ede" : feature_group_41627ce7fee4bbd0aa250516b10f1611,
+                },
+            };
+            let layer_control_94f54aac0d9bb14ffd9729357ef5a0c6 = L.control.layers(
+                layer_control_94f54aac0d9bb14ffd9729357ef5a0c6_layers.base_layers,
+                layer_control_94f54aac0d9bb14ffd9729357ef5a0c6_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_5c7feef078bd0a36140e3e777cad375b);
+
+        
+</script>
+</html>

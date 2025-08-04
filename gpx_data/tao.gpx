@@ -341,6 +341,9 @@
           <https://hikingbook.net/xmlschemas/1/5:course>-1.000000</https://hikingbook.net/xmlschemas/1/5:course>
         </extensions>
       </trkpt>
+      <trkpt lat="24.40522" lon="121.30758">
+        <ele>2100.0</ele>
+      </trkpt>
       <trkpt lat="24.405222" lon="121.307583">
         <ele>1992.3</ele>
         <src>Hikingbook</src>
@@ -348,9 +351,6 @@
           <https://hikingbook.net/xmlschemas/1/5:speed>-1.000000</https://hikingbook.net/xmlschemas/1/5:speed>
           <https://hikingbook.net/xmlschemas/1/5:course>-1.000000</https://hikingbook.net/xmlschemas/1/5:course>
         </extensions>
-      </trkpt>
-      <trkpt lat="24.40522" lon="121.30758">
-        <ele>2100.0</ele>
       </trkpt>
       <trkpt lat="24.405222" lon="121.307583">
         <ele>2004.7</ele>
@@ -784,6 +784,9 @@
           <https://hikingbook.net/xmlschemas/1/5:course>-1.000000</https://hikingbook.net/xmlschemas/1/5:course>
         </extensions>
       </trkpt>
+      <trkpt lat="24.4163" lon="121.3072">
+        <ele>2700.0</ele>
+      </trkpt>
       <trkpt lat="24.414932" lon="121.308213">
         <ele>2416.4</ele>
         <src>Hikingbook</src>
@@ -799,9 +802,6 @@
           <https://hikingbook.net/xmlschemas/1/5:speed>-1.000000</https://hikingbook.net/xmlschemas/1/5:speed>
           <https://hikingbook.net/xmlschemas/1/5:course>-1.000000</https://hikingbook.net/xmlschemas/1/5:course>
         </extensions>
-      </trkpt>
-      <trkpt lat="24.4163" lon="121.3072">
-        <ele>2700.0</ele>
       </trkpt>
       <trkpt lat="24.416289" lon="121.307206">
         <ele>2513.1</ele>
@@ -1221,30 +1221,6 @@
       </trkpt>
       <trkpt lat="24.4314" lon="121.304895">
         <ele>3202.0</ele>
-        <src>Hikingbook</src>
-        <extensions>
-          <https://hikingbook.net/xmlschemas/1/5:speed>-1.000000</https://hikingbook.net/xmlschemas/1/5:speed>
-          <https://hikingbook.net/xmlschemas/1/5:course>-1.000000</https://hikingbook.net/xmlschemas/1/5:course>
-        </extensions>
-      </trkpt>
-      <trkpt lat="24.431687" lon="121.304841">
-        <ele>3215.4</ele>
-        <src>Hikingbook</src>
-        <extensions>
-          <https://hikingbook.net/xmlschemas/1/5:speed>-1.000000</https://hikingbook.net/xmlschemas/1/5:speed>
-          <https://hikingbook.net/xmlschemas/1/5:course>-1.000000</https://hikingbook.net/xmlschemas/1/5:course>
-        </extensions>
-      </trkpt>
-      <trkpt lat="24.432065" lon="121.304811">
-        <ele>3231.3</ele>
-        <src>Hikingbook</src>
-        <extensions>
-          <https://hikingbook.net/xmlschemas/1/5:speed>-1.000000</https://hikingbook.net/xmlschemas/1/5:speed>
-          <https://hikingbook.net/xmlschemas/1/5:course>-1.000000</https://hikingbook.net/xmlschemas/1/5:course>
-        </extensions>
-      </trkpt>
-      <trkpt lat="24.432463" lon="121.304842">
-        <ele>3241.0</ele>
         <src>Hikingbook</src>
         <extensions>
           <https://hikingbook.net/xmlschemas/1/5:speed>-1.000000</https://hikingbook.net/xmlschemas/1/5:speed>
